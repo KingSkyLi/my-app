@@ -1,8 +1,12 @@
+// React 负责逻辑控制，数据——> vnode
 import React from 'react';
+// 渲染实际Dom vNode——> Dom
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
